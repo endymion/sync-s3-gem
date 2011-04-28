@@ -5,3 +5,7 @@ In your Gemfile
 
 In your Rakefile
   Dir["#{Gem.searcher.find('sync-s3-gem').full_gem_path}/lib/tasks/**/*.rake"].each { |ext| load ext }
+
+In your config/S3.yml
+  access_key_id: YOURSECRETACCESSID
+  secret_access_key: YOUR-secRE/TACCe\ssKEy
